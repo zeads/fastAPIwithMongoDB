@@ -1,0 +1,19 @@
+## setting virtual env
+# pip install virtualenv
+# Untuk menjalankan virtualenv
+    -> tombol keyboard window 
+    -> cari env 
+    -> Environtment variables 
+    -> cari Path (double click untuk edit) 
+    -> klik New
+    -> copy C:\Users\ASUS\AppData\Local\Python\pythoncore-3.14-64\Scripts
+    -> Ok, kemudian restart terminal atau vscodenya
+# Buat environtment : virtualenv venv
+# source venv/Scripts/activate
+
+## setting mongodb
+# jalankan docker client, kemudian di terminal ketik : 
+    -> docker run -d -p 27017:27017 --name my_mongodb mongo
+    -> docker logs my_mongodb (u/ cek db yang baru dibuat)
+    -> docker ps (u/ cek image docker yg berjalan)
+
