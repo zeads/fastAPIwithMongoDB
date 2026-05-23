@@ -17,3 +17,15 @@
     -> docker logs my_mongodb (u/ cek db yang baru dibuat)
     -> docker ps (u/ cek image docker yg berjalan)
 
+    -> docker images (u/ melihat list image docker)
+    -> docker start <nama_image> (u/ menjalankan docker image yang sudah ada) atau
+    -> docker run -d <nama_image> (u/ membuat kontainer baru lalu menjalankannya) 
+
+# menjalankan aplikasi fastAPI
+    -> uvicorn <nama_file_main>:<nama_instant_fastAPI> --reload
+        contoh :    uvicorn app:app --reload (jika nama file app)
+                    uvicorn main:app --reload (jika nama file main)
+
+
+pip install pydantic (u/ membuat model database dan validasi)
+pip install pymongo (u/ mongodb client)
